@@ -13,7 +13,7 @@ pipeline {
 
                 script {
                     docker.withRegistry('https://registry.hub.docker.com', 'docker-hub') {
-                        def image = docker.build("alestew/professional-webpage ")
+                        def image = docker.build("alestew/professional-website ")
                         image.push("${BRANCH_NAME}-${BUILD_NUMBER}")
                         image.push("latest")
                     }

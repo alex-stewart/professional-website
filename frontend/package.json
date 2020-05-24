@@ -1,7 +1,7 @@
 {
-  "name": "professional-webpage",
+  "name": "professional-website",
   "version": "0.1.0",
-  "repository": "https://github.com/alex-stewart/professional-webpage",
+  "repository": "https://github.com/alex-stewart/professional-website",
   "author": "Alex Stewart",
   "license": "MIT",
   "private": true,
@@ -11,6 +11,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "bootstrap-vue": "^2.15.0",
     "core-js": "^3.6.4",
     "vue": "^2.6.11"
   },

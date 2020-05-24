@@ -1,13 +1,13 @@
-package com.alestew.professionalwebpage;
+package com.alestew.professionalwebsite;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProfessionalWebpageApplication {
+public class ProfessionalwebsiteApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ProfessionalWebpageApplication.class, args);
+        SpringApplication.run(ProfessionalwebsiteApplication.class, args);
     }
 
 }

@@ -1,10 +1,10 @@
-package com.alestew.professionalwebpage;
+package com.alestew.professionalwebsite;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProfessionalWebpageApplicationTests {
+class ProfessionalwebsiteApplicationTests {
 
     @Test
     void contextLoads() {
