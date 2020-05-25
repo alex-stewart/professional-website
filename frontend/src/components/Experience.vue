@@ -62,7 +62,7 @@
 </template>
 
 <script>
-    import Role from './experience/Role.vue'
+    import Role from './Role.vue'
 
     export default {
         name: 'experience',

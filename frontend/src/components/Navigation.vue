@@ -14,5 +14,9 @@
 <style>
     .nav-item {
         padding: 5px;
+        color: #000000;
+    }
+    .nav-item:hover {
+        color: #000000;
     }
 </style>
