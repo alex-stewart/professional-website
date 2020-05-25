@@ -25,7 +25,7 @@
     import GitHubIcon from './icons/GitHubIcon.vue'
     import LinkedInIcon from './icons/LinkedInIcon.vue'
     import MailIcon from './icons/MailIcon.vue'
-    import BaseIcon from "./icons/BaseIcon";
+    import BaseIcon from "./icons/IconBase";
 
     export default {
         name: 'links',
