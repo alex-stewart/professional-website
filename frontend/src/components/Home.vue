@@ -8,9 +8,9 @@
                 <div class="h1">Alex Stewart</div>
             </b-row>
             <b-row align-h="center">
-                <div class="h3">Software Engineer</div>
+                <div class="h4">Software Engineer</div>
             </b-row>
-            <b-row align-h="center">
+            <b-row align-h="center" class="nav-row">
                 <Links/>
             </b-row>
         </b-container>
@@ -30,6 +30,9 @@
 
 <style>
     .home-container {
-        padding-top: 50px;
+        padding-top: 5%;
+    }
+    .nav-row {
+        padding-top: 5%;
     }
 </style>
