@@ -1,11 +1,15 @@
 <template>
     <div>
         <div class="timeline-notch"/>
-        <b-card :title="title"
-                :sub-title="companyName"
+        <b-card :title="role.title"
+                :sub-title="role.companyName"
                 :footer="formatFooter()">
             <b-card-text>
-                <div>- points</div>
+                <ul>
+                    <li v-for="detail in role.details" v-bind:key="detail">
+                        {{detail}}
+                    </li>
+                </ul>
             </b-card-text>
         </b-card>
     </div>
@@ -15,22 +19,13 @@
     export default {
         name: 'role',
         props: {
-            companyName: {
-                type: String
-            },
-            title: {
-                type: String
-            },
-            startDate: {
-                type: String
-            },
-            endDate: {
-                type: String
+            role: {
+                type: Object
             }
         },
         methods: {
-            formatFooter: function() {
-                return this.startDate + ' - ' + this.endDate;
+            formatFooter: function () {
+                return this.role.startDate + ' - ' + this.role.endDate;
             }
         }
     }
@@ -43,6 +38,6 @@
         background: black;
         position: relative;
         left: -10px;
-        top: 30px;
+        top: 40px;
     }
 </style>

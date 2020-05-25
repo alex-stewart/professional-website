@@ -2,61 +2,9 @@
     <div id="experience">
         <b-container>
             <b-col>
-                <b-row align-h="center">
+                <b-row align-h="center" v-for="role in roles" v-bind:key="role">
                     <div class="timeline-segment"/>
-                    <Role class="row-card"
-                          company-name="The Hut Group"
-                          title="Senior Software Engineer"
-                          start-date="November 2019"
-                          end-date="Present"/>
-                </b-row>
-                <b-row align-h="center">
-                    <div class="timeline-segment"/>
-                    <Role class="row-card"
-                          company-name="Hermes Parcelnet Ltd."
-                          title="Senior Developer"
-                          start-date="July 2017"
-                          end-date="November 2019"/>
-                </b-row>
-                <b-row align-h="center">
-                    <div class="timeline-segment"/>
-                    <Role class="row-card"
-                          company-name="Hermes Parcelnet Ltd."
-                          title="Developer"
-                          start-date="July 2018"
-                          end-date="July 2019"/>
-                </b-row>
-                <b-row align-h="center">
-                    <div class="timeline-segment"/>
-                    <Role class="row-card"
-                          company-name="Hermes Parcelnet Ltd."
-                          title="Junior Java Engineer"
-                          start-date="August 2017"
-                          end-date="July 2019"/>
-                </b-row>
-                <b-row align-h="center">
-                    <div class="timeline-segment"/>
-                    <Role class="row-card"
-                          company-name="Dion Global Solutions"
-                          title="Junior Developer"
-                          start-date="July 2018"
-                          end-date="August 2017"/>
-                </b-row>
-                <b-row align-h="center">
-                    <div class="timeline-segment"/>
-                    <Role class="row-card"
-                          company-name="Omnicom Balfour Beatty"
-                          title="Placement Student"
-                          start-date="July 2018"
-                          end-date="August 2017"/>
-                </b-row>
-                <b-row align-h="center">
-                    <div class="timeline-segment"/>
-                    <Role class="row-card"
-                          company-name="University of York"
-                          title="BEng. Computer Science With Year in Industry"
-                          start-date="October 2011"
-                          end-date="June - 2016"/>
+                    <Role class="row-card" :role="role"/>
                 </b-row>
             </b-col>
         </b-container>
@@ -70,6 +18,53 @@
         name: 'experience',
         components: {
             Role
+        },
+        data: () => {
+            return {
+                roles: [
+                    {
+                        companyName: 'The Hut Group',
+                        title: 'Senior Software Engineer',
+                        startDate: 'November 2019',
+                        endDate: 'Present'
+                    }, {
+                        companyName: 'Hermes Parcelnet Ltd.',
+                        title: 'Senior Developer',
+                        startDate: 'July 2019',
+                        endDate: 'November 2019'
+                    }, {
+                        companyName: 'Hermes Parcelnet Ltd.',
+                        title: 'Developer',
+                        startDate: 'July 2018',
+                        endDate: 'July 2019'
+                    }, {
+                        companyName: 'Hermes Parcelnet Ltd.',
+                        title: 'Junior Java Engineer',
+                        startDate: 'August 2017',
+                        endDate: 'July 2018'
+                    }, {
+                        companyName: 'Dion Global Solution',
+                        title: 'Junior Developer',
+                        startDate: 'October 2016',
+                        endDate: 'July 2017'
+                    }, {
+                        companyName: 'Omnicom Engineering Ltd.',
+                        title: 'Computer Science Placement Student',
+                        startDate: 'July 2014',
+                        endDate: 'July 2015'
+                    }, {
+                        companyName: 'University of York',
+                        title: 'BEng. Computer Science With Year in Industry',
+                        startDate: 'October 2011',
+                        endDate: 'July 2016',
+                        details: [
+                            'Automatic Gesture Generation for Virtual Actors from Text',
+                            'Designing Habitable Software',
+                            'Software Engineering Group Project'
+                        ]
+                    }
+                ]
+            }
         }
     }
 </script>
@@ -85,7 +80,7 @@
         margin: 10px;
     }
 
-    .timeline-segment{
+    .timeline-segment {
         width: 10px;
         background: black;
     }
