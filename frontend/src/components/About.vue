@@ -11,7 +11,7 @@
                 <div class="h4">Software Engineer | Tech Leader</div>
             </b-row>
             <b-row align-h="center">
-                <div>Engineering cloud native microservices.</div>
+                <div>AWS Certified Developer engineering cloud native microservices in the logistics industry.</div>
             </b-row>
             <b-row align-h="center" class="nav-row">
                 <Links/>

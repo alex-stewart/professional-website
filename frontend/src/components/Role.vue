@@ -1,13 +1,14 @@
 <template>
     <div>
         <div class="timeline-notch"/>
-        <b-card :title="role.title"
+        <b-card class="role-card"
+                :title="role.title"
                 :sub-title="role.companyName"
                 :footer="formatFooter()">
             <b-card-text>
                 <ul>
                     <li v-for="detail in role.details" v-bind:key="detail">
-                        {{detail}}
+                        <div class="small">{{detail}}</div>
                     </li>
                 </ul>
             </b-card-text>
@@ -39,5 +40,8 @@
         position: relative;
         left: -10px;
         top: 40px;
+    }
+    .role-card div.card-body{
+        padding-bottom: 0;
     }
 </style>

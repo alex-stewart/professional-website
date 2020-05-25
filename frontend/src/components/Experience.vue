@@ -26,32 +26,56 @@
                         companyName: 'The Hut Group',
                         title: 'Senior Software Engineer',
                         startDate: 'November 2019',
-                        endDate: 'Present'
+                        endDate: 'Present',
+                        details: [
+                            'Working on a warehouse management system leading a team of graduates building a warehouse inventory auditing microservice',
+                            'Lead a project to replace SQS and Apache Pulsar messaging systems with RabbitMQ as part of a migration away from Amazon Web Services.'
+                        ]
                     }, {
                         companyName: 'Hermes Parcelnet Ltd.',
                         title: 'Senior Developer',
                         startDate: 'July 2019',
-                        endDate: 'November 2019'
+                        endDate: 'November 2019',
+                        details: [
+                            'Coaching junior members of the team.',
+                            'Responsible for maintaining and documenting cloud infrastructure and continuous integration pipelines.'
+                        ]
                     }, {
                         companyName: 'Hermes Parcelnet Ltd.',
                         title: 'Developer',
                         startDate: 'July 2018',
-                        endDate: 'July 2019'
+                        endDate: 'July 2019',
+                        details: [
+                            'Architected microservices for interfacing with third party tracking data sources, providing real time tracking to millions of customers and tens of thousands of clients.',
+                            'Obtained AWS Developer Associate certification.'
+                        ]
                     }, {
                         companyName: 'Hermes Parcelnet Ltd.',
                         title: 'Junior Java Engineer',
                         startDate: 'August 2017',
-                        endDate: 'July 2018'
+                        endDate: 'July 2018',
+                        details: [
+                            'Worked as part of a team to split a monolithic real time parcel tracking service into multiple independently deployable microservices.',
+                            'Provided out of hours support and took ownership of implementing solutions to live incidents.'
+                        ]
                     }, {
                         companyName: 'Dion Global Solution',
                         title: 'Junior Developer',
                         startDate: 'October 2016',
-                        endDate: 'July 2017'
+                        endDate: 'July 2017',
+                        details: [
+                            'Part of a development team building a mobile-first wealth management platform as a full stack developer.',
+                            'Assisted in developing an automated end-to-end test suite.'
+                        ]
                     }, {
                         companyName: 'Omnicom Engineering Ltd.',
                         title: 'Computer Science Placement Student',
                         startDate: 'July 2014',
-                        endDate: 'July 2015'
+                        endDate: 'July 2015',
+                        details: [
+                            'Developed an algorithm for aligning train track measurement data as part of a big data project to predict line faults.',
+                            'Worked independently to build track measurement conversion libraries in different languages.'
+                        ]
                     }, {
                         companyName: 'University of York',
                         title: 'BEng. Computer Science With Year in Industry',
