@@ -1,13 +1,11 @@
 <template>
     <div>
         <div class="timeline-notch"/>
-        <b-card :title="companyName">
+        <b-card :title="title"
+                :sub-title="companyName"
+                :footer="formatFooter()">
             <b-card-text>
-                <div class="h5">{{title}}</div>
-                <div>{{startDate}} - {{endDate}}</div>
-                <div>dsadadadsa</div>
-                <div>dsadadadsa</div>
-                <div>dsadadadsa</div>
+                <div>- points</div>
             </b-card-text>
         </b-card>
     </div>
@@ -20,9 +18,6 @@
             companyName: {
                 type: String
             },
-            companyWebsite: {
-                type: String
-            },
             title: {
                 type: String
             },
@@ -31,6 +26,11 @@
             },
             endDate: {
                 type: String
+            }
+        },
+        methods: {
+            formatFooter: function() {
+                return this.startDate + ' - ' + this.endDate;
             }
         }
     }

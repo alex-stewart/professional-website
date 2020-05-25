@@ -6,7 +6,6 @@
                     <div class="timeline-segment"/>
                     <Role class="row-card"
                           company-name="The Hut Group"
-                          company-website="https://www.thg.com"
                           title="Senior Software Engineer"
                           start-date="November 2019"
                           end-date="Present"/>
@@ -14,8 +13,7 @@
                 <b-row align-h="center">
                     <div class="timeline-segment"/>
                     <Role class="row-card"
-                          company-name="Hermes"
-                          company-website="https://www.hermesworld.com/us/about-us/hermes-group/hermes-uk/hermes-uk"
+                          company-name="Hermes Parcelnet Ltd."
                           title="Senior Developer"
                           start-date="July 2017"
                           end-date="November 2019"/>
@@ -23,8 +21,7 @@
                 <b-row align-h="center">
                     <div class="timeline-segment"/>
                     <Role class="row-card"
-                          company-name="Hermes"
-                          company-website="https://www.hermesworld.com/us/about-us/hermes-group/hermes-uk/hermes-uk"
+                          company-name="Hermes Parcelnet Ltd."
                           title="Developer"
                           start-date="July 2018"
                           end-date="July 2019"/>
@@ -32,8 +29,7 @@
                 <b-row align-h="center">
                     <div class="timeline-segment"/>
                     <Role class="row-card"
-                          company-name="Hermes"
-                          company-website="https://www.hermesworld.com/us/about-us/hermes-group/hermes-uk/hermes-uk"
+                          company-name="Hermes Parcelnet Ltd."
                           title="Junior Java Engineer"
                           start-date="August 2017"
                           end-date="July 2019"/>
@@ -42,7 +38,6 @@
                     <div class="timeline-segment"/>
                     <Role class="row-card"
                           company-name="Dion Global Solutions"
-                          company-website="https://www.dionglobal.com/"
                           title="Junior Developer"
                           start-date="July 2018"
                           end-date="August 2017"/>
@@ -50,11 +45,18 @@
                 <b-row align-h="center">
                     <div class="timeline-segment"/>
                     <Role class="row-card"
-                          company-name="Omnicom Engineering"
-                          company-website="https://www.balfourbeatty.com/expertise/rail-engineering/digital-technology/omnicom-balfour-beatty"
+                          company-name="Omnicom Balfour Beatty"
                           title="Placement Student"
                           start-date="July 2018"
                           end-date="August 2017"/>
+                </b-row>
+                <b-row align-h="center">
+                    <div class="timeline-segment"/>
+                    <Role class="row-card"
+                          company-name="University of York"
+                          title="BEng. Computer Science With Year in Industry"
+                          start-date="October 2011"
+                          end-date="June - 2016"/>
                 </b-row>
             </b-col>
         </b-container>
@@ -78,7 +80,8 @@
     }
 
     .row-card {
-        width: 50%;
+        width: calc(100% - 100px);
+        max-width: 500px;
         margin: 10px;
     }
 
