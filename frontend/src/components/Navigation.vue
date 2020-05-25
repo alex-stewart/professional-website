@@ -1,6 +1,7 @@
 <template>
     <div>
-        <b-link class="nav-item" to="/">About</b-link>
+        <b-link class="nav-item" to="#about">About</b-link>
+        <b-link class="nav-item" to="#skills">Skills</b-link>
         <b-link class="nav-item" to="#experience">Experience</b-link>
     </div>
 </template>
