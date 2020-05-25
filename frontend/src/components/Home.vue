@@ -20,6 +20,6 @@
 
 <style>
     #home {
-        padding-top: 5%;
+        padding-top: 50px;
     }
 </style>

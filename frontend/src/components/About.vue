@@ -36,7 +36,7 @@
         width: 100%;
     }
     .nav-row {
-        padding-top: 5%;
-        padding-bottom: 5%;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 </style>
