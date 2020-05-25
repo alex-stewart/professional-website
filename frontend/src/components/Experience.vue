@@ -2,6 +2,9 @@
     <div id="experience">
         <b-container>
             <b-col>
+                <b-row align-h="center">
+                    <div class="h1">Experience</div>
+                </b-row>
                 <b-row align-h="center" v-for="role in roles" v-bind:key="role">
                     <div class="timeline-segment"/>
                     <Role class="row-card" :role="role"/>
