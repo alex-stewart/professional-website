@@ -1,6 +1,6 @@
 <template>
     <div id="cv">
-        <Role company="Test" role="Senior Developer" start-date="yesterday" end-date="today"/>
+        <Role company="The Hut Group" role="Senior Developer" start-date="yesterday" end-date="today"/>
     </div>
 </template>
 

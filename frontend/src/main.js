@@ -6,7 +6,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import './assets/css/global.css';
 import App from './App.vue'
 import Home from './components/Home'
-import CV from './components/CV'
+import Experience from './components/Experience'
 import NotFound from './components/NotFound'
 
 const PAGE_TITLE_PREFIX = 'Alex Stewart | ';
@@ -19,7 +19,7 @@ const router = new VueRouter({
     base: __dirname,
     routes: [
         {path: '/', name: 'home', component: Home, meta: {title: PAGE_TITLE_PREFIX + 'Software Engineer'}},
-        {path: '/cv', name: 'cv', component: CV, meta: {title: PAGE_TITLE_PREFIX + 'CV'}},
+        {path: '/experience', name: 'experience', component: Experience, meta: {title: PAGE_TITLE_PREFIX + 'CV'}},
         {path: '*', name: 'not found', component: NotFound, meta: {title: PAGE_TITLE_PREFIX + 'Not found'}}
     ]
 });
