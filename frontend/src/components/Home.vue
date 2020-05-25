@@ -20,9 +20,3 @@
         }
     }
 </script>
-
-<style>
-    #home {
-        padding-top: 50px;
-    }
-</style>

@@ -33,6 +33,7 @@
 
 <style>
     #about {
+        padding-top: 50px;
         width: 100%;
     }
     .nav-row {
