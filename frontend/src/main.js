@@ -5,11 +5,10 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import App from './App.vue'
 import Home from './components/Home'
+import CV from './components/CV'
 import NotFound from './components/NotFound'
 
 const PAGE_TITLE_PREFIX = "Alex Stewart | ";
-
-Vue.config.ignoredElements = [/^ion-/];
 
 Vue.use(BootstrapVue);
 Vue.use(VueRouter);
@@ -19,6 +18,7 @@ const router = new VueRouter({
     base: __dirname,
     routes: [
         {path: '/', name: 'home', component: Home, meta: {title: PAGE_TITLE_PREFIX + "Software Engineer"}},
+        {path: '/cv', name: 'cv', component: CV, meta: {title: PAGE_TITLE_PREFIX + "CV"}},
         {path: '*', name: 'not found', component: NotFound, meta: {title: PAGE_TITLE_PREFIX + "Not found"}}
     ]
 });
