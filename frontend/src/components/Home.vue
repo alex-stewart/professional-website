@@ -1,5 +1,5 @@
 <template>
-    <div id="home" class="home-container">
+    <div id="home">
         <b-container>
             <b-row align-h="center">
                 <img alt="Alex Stewart" width="200px" height="200px" src="../assets/image/alex-photograph.png"/>
@@ -14,25 +14,29 @@
                 <Links/>
             </b-row>
         </b-container>
+        <Experience/>
     </div>
 </template>
 
 <script>
     import Links from './Links.vue'
+    import Experience from './Experience';
 
     export default {
         name: 'home',
         components: {
-            Links
+            Links,
+            Experience
         }
     }
 </script>
 
 <style>
-    .home-container {
+    #home {
         padding-top: 5%;
     }
     .nav-row {
         padding-top: 5%;
+        padding-bottom: 5%;
     }
 </style>
