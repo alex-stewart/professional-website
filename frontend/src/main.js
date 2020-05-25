@@ -19,7 +19,7 @@ const router = new VueRouter({
     base: __dirname,
     routes: [
         {path: '/', name: 'home', component: Home, meta: {title: PAGE_TITLE_PREFIX + 'Software Engineer'}},
-        {path: '/experience', name: 'experience', component: Experience, meta: {title: PAGE_TITLE_PREFIX + 'CV'}},
+        {path: '/experience', name: 'experience', component: Experience, meta: {title: PAGE_TITLE_PREFIX + 'Experience'}},
         {path: '*', name: 'not found', component: NotFound, meta: {title: PAGE_TITLE_PREFIX + 'Not found'}}
     ]
 });
