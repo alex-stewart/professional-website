@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import {BootstrapVue, IconsPlugin} from 'bootstrap-vue'
+import {BootstrapVue} from 'bootstrap-vue'
 import VueRouter from 'vue-router';
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
@@ -9,8 +9,9 @@ import NotFound from './components/NotFound'
 
 const PAGE_TITLE_PREFIX = "Alex Stewart | ";
 
+Vue.config.ignoredElements = [/^ion-/];
+
 Vue.use(BootstrapVue);
-Vue.use(IconsPlugin);
 Vue.use(VueRouter);
 
 const router = new VueRouter({

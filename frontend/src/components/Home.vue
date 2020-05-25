@@ -1,26 +1,26 @@
 <template>
     <div id="home">
-        <div id="header">
-            <Header/>
-        </div>
-        <div class="h2 mb-0">
-            <b-icon-truck></b-icon-truck>
-        </div>
-        <div id="footer">
-            <Footer/>
-        </div>
+        <b-container>
+            <b-row align-h="center">
+                <div class="h1">Alex Stewart</div>
+            </b-row>
+            <b-row align-h="center">
+                <div class="h3">Software Engineer</div>
+            </b-row>
+            <b-row align-h="center">
+                <Links/>
+            </b-row>
+        </b-container>
     </div>
 </template>
 
 <script>
-    import Header from './Header.vue'
-    import Footer from './Footer.vue'
+    import Links from './Links.vue'
 
     export default {
         name: 'home',
         components: {
-            Header,
-            Footer
+            Links
         }
     }
 </script>
@@ -30,8 +30,6 @@
         font-family: Avenir, Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        text-align: center;
         color: #2c3e50;
-        margin-top: 60px;
     }
 </style>
