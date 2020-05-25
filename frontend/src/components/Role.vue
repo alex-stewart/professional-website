@@ -42,6 +42,6 @@
         top: 40px;
     }
     .role-card div.card-body{
-        padding-bottom: 0;
+        padding: 10px 10px 0 10px
     }
 </style>
