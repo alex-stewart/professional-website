@@ -19,6 +19,10 @@
     import PulseIcon from './icons/PulseIcon';
     import CloudIcon from './icons/CloudIcon';
     import RocketIcon from './icons/RocketIcon';
+    import SkyscraperIcon from './icons/SkyscraperIcon';
+    import ToolsIcon from './icons/ToolsIcon';
+    import ComputerIcon from './icons/ComputerIcon';
+    import BoxIcon from './icons/BoxIcon';
 
     export default {
         name: 'skillSet',
@@ -28,7 +32,11 @@
             CloudIcon,
             MeterIcon,
             MeritIcon,
-            PulseIcon
+            PulseIcon,
+            SkyscraperIcon,
+            ToolsIcon,
+            ComputerIcon,
+            BoxIcon
         },
         props: {
             skill: {

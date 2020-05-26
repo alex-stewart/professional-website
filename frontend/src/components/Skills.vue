@@ -26,42 +26,36 @@
                         details: 'Developer Associate'
                     }, {
                         icon: 'MeterIcon',
-                        heading: 'Microservice Architecture',
-                        details: 'Event Driven Architecture - REST'
+                        heading: 'Scalable Java Microservices',
+                        details: 'Java - Spring Boot - Apache Camel'
                     }, {
                         icon: 'RocketIcon',
                         heading: 'Team Leadership',
-                        details: 'API Documentation - Scrum - Kanban - Test Driven Development'
+                        details: 'Mentoring - Scrum - Kanban - Test Driven Developments'
                     }, {
-                        icon: 'MeterIcon',
-                        heading: 'Scalable Java Microservices',
-                        details: 'Java - Spring Boot - Apache Camel'
-                    },
-                    {
+                        icon: 'SkyscraperIcon',
+                        heading: 'Solution Architecture',
+                        details: 'Event Driven Architecture - REST - SQL - NoSQL'
+                    }, {
+                        icon: 'BoxIcon',
+                        heading: 'Logistics Background',
+                        details: 'Parcel Delivery - Parcel Sortation - Warehouse Management'
+                    }, {
                         icon: 'CloudIcon',
                         heading: 'Cloud Infrastructure',
-                        details: 'Jenkins - Ansible - CloudFormation - Docker'
-                    },
-
-                    {
+                        details: 'CloudFormation - Jenkins - Concourse - Docker - Ansible'
+                    }, {
                         icon: 'PulseIcon',
                         heading: 'Service Visibility',
                         details: 'Grafana - Prometheus - AppDynamics - CloudWatch'
                     }, {
-                        icon: 'MeterIcon',
-                        heading: 'Scalable Java Microservices',
-                        details: 'Java - Spring Boot - Apache Camel'
-                    },
-                    {
-                        icon: 'CloudIcon',
-                        heading: 'Cloud Infrastructure',
-                        details: 'Jenkins - Ansible - CloudFormation - Docker'
-                    },
-
-                    {
-                        icon: 'PulseIcon',
-                        heading: 'Service Visibility',
-                        details: 'Grafana - Prometheus - AppDynamics - CloudWatch'
+                        icon: 'ToolsIcon',
+                        heading: 'Test Automation',
+                        details: 'JUnit - Mockito - Wiremock - REST-assured - Selenium'
+                    }, {
+                        icon: 'ComputerIcon',
+                        heading: 'Web Design',
+                        details: 'JavaScript - AngularJS - Vue.js - React'
                     }
                 ]
             }
