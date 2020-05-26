@@ -1,24 +1,14 @@
 <template>
     <div>
-        <b-container>
-            <b-col>
-                <b-row align-h="center">
-                    <div class="h5 text-center">
-                        {{skill.heading}}
-                    </div>
-                </b-row>
-                <b-row align-h="center">
-                    <IconBase>
-                        <component v-bind:is="skill.icon"/>
-                    </IconBase>
-                </b-row>
-                <b-row align-h="center">
-                    <div v-for="tech in skill.techList" v-bind:key="tech">
-                        <b-badge class="tech-badge">{{tech}}</b-badge>
-                    </div>
-                </b-row>
-            </b-col>
-        </b-container>
+        <IconBase height="100" width="100">
+            <component v-bind:is="skill.icon"/>
+        </IconBase>
+        <div class="h3 text-center">
+            {{skill.heading}}
+        </div>
+        <div class="h6">
+            {{skill.details}}
+        </div>
     </div>
 </template>
 
@@ -49,7 +39,4 @@
 </script>
 
 <style>
-    .tech-badge {
-        margin: 2px;
-    }
 </style>

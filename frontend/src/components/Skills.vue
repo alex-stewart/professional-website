@@ -1,17 +1,11 @@
 <template>
     <div id="skills">
-        <b-container>
-            <b-row align-h="center">
-                <div class="h1">Skills</div>
-            </b-row>
-        </b-container>
-        <b-container>
-            <b-row>
-                <b-col v-for="skill in skills" v-bind:key="skill">
-                    <SkillSet :skill="skill"></SkillSet>
-                </b-col>
-            </b-row>
-        </b-container>
+        <div class="h1 text-center">Skills</div>
+        <div class="flex-container">
+            <div class="flex-item" v-for="skill in skills" v-bind:key="skill">
+                <SkillSet :skill="skill"></SkillSet>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -29,26 +23,45 @@
                     {
                         icon: 'MeritIcon',
                         heading: 'AWS Certified',
-                        techList: ['Developer Associate']
+                        details: 'Developer Associate'
                     }, {
                         icon: 'MeterIcon',
-                        heading: 'High Performance Java Microservices',
-                        techList: ['Java', 'Spring Boot', 'RabbitMQ', 'Camel', 'REST', 'Cassandra']
-                    },
-                    {
-                        icon: 'PulseIcon',
-                        heading: 'Service Visibility',
-                        techList: ['Grafana', 'Prometheus', 'AppDynamics', 'CloudWatch']
+                        heading: 'Microservice Architecture',
+                        details: 'Event Driven Architecture - REST'
+                    }, {
+                        icon: 'RocketIcon',
+                        heading: 'Team Leadership',
+                        details: 'API Documentation - Scrum - Kanban - Test Driven Development'
+                    }, {
+                        icon: 'MeterIcon',
+                        heading: 'Scalable Java Microservices',
+                        details: 'Java - Spring Boot - Apache Camel'
                     },
                     {
                         icon: 'CloudIcon',
                         heading: 'Cloud Infrastructure',
-                        techList: ['Jenkins', 'Ansible', 'CloudFormation', 'Docker']
+                        details: 'Jenkins - Ansible - CloudFormation - Docker'
+                    },
+
+                    {
+                        icon: 'PulseIcon',
+                        heading: 'Service Visibility',
+                        details: 'Grafana - Prometheus - AppDynamics - CloudWatch'
+                    }, {
+                        icon: 'MeterIcon',
+                        heading: 'Scalable Java Microservices',
+                        details: 'Java - Spring Boot - Apache Camel'
                     },
                     {
-                        icon: 'RocketIcon',
-                        heading: 'Agile Development Methodologies',
-                        techList: ['Scrum', 'Kanban', 'Test Driven Development']
+                        icon: 'CloudIcon',
+                        heading: 'Cloud Infrastructure',
+                        details: 'Jenkins - Ansible - CloudFormation - Docker'
+                    },
+
+                    {
+                        icon: 'PulseIcon',
+                        heading: 'Service Visibility',
+                        details: 'Grafana - Prometheus - AppDynamics - CloudWatch'
                     }
                 ]
             }
@@ -59,5 +72,28 @@
 <style>
     #skills {
         padding-top: 20px;
+        width: 100%;
+        min-height: calc(100vh);
+    }
+
+    .flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .flex-item {
+        padding: 10px;
+        width: 500px;
+        height: 200px;
+        margin-top: 30px;
+        margin-bottom: 70px;
+        color: black;
+        font-weight: bold;
+        font-size: 3em;
+        text-align: center;
     }
 </style>

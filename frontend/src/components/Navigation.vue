@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="nav">
         <b-link class="nav-item" to="#about">About</b-link>
         <b-link class="nav-item" to="#skills">Skills</b-link>
         <b-link class="nav-item" to="#experience">Experience</b-link>
@@ -13,6 +13,9 @@
 </script>
 
 <style>
+    #nav {
+        z-index: 1;
+    }
     .nav-item {
         padding: 5px;
         color: #000000;

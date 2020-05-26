@@ -35,6 +35,7 @@
     #about {
         padding-top: 50px;
         width: 100%;
+        min-height: calc(100vh);
     }
     .nav-row {
         padding-top: 50px;

@@ -8,10 +8,6 @@
 <script>
     export default {
         props: {
-            title: {
-                type: String,
-                default: 'icon'
-            },
             width: {
                 type: [Number, String],
                 default: 50
