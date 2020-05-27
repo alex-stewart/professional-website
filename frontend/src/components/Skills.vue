@@ -2,7 +2,7 @@
     <div id="skills">
         <div class="h1 text-center">Skills</div>
         <div class="flex-container">
-            <div class="flex-item" v-for="skill in skills" v-bind:key="skill">
+            <div class="flex-item" v-for="skill in skills" v-bind:key="skill.heading">
                 <SkillSet :skill="skill"></SkillSet>
             </div>
         </div>

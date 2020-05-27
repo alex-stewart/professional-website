@@ -8,7 +8,7 @@
                 <div class="h1">Alex Stewart</div>
             </b-row>
             <b-row align-h="center">
-                <div class="h4">Software Engineer | Tech Leader</div>
+                <div class="h4">Software Engineer | Team Lead</div>
             </b-row>
             <b-row align-h="center">
                 <div>AWS Certified Developer engineering cloud native microservices in the logistics industry.</div>

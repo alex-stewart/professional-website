@@ -3,7 +3,7 @@
         <div class="h1 text-center">Experience</div>
         <b-container>
             <b-col>
-                <b-row align-h="center" v-for="role in roles" v-bind:key="role">
+                <b-row align-h="center" v-for="role in roles" v-bind:key="role.startDate">
                     <div class="timeline-segment"/>
                     <Role class="row-card" :role="role"/>
                 </b-row>

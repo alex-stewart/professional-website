@@ -1,8 +1,8 @@
 <template>
     <div id="nav">
-        <b-link class="nav-item" to="#about">About</b-link>
-        <b-link class="nav-item" to="#skills">Skills</b-link>
-        <b-link class="nav-item" to="#experience">Experience</b-link>
+        <b-link class="nav-item" @click="$emit('about')">About</b-link>
+        <b-link class="nav-item" @click="$emit('skills')">Skills</b-link>
+        <b-link class="nav-item" @click="$emit('experience')">Experience</b-link>
     </div>
 </template>
 
