@@ -1,23 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage('Gradle Build' ) {
+        stage('Deploy to GitHub Pages' ) {
             steps {
-                echo 'Building Project'
-                sh "./gradlew clean build"
-            }
-        }
-        stage('Docker Build and Publish') {
-            steps {
-                echo 'Build and Publish Docker Image'
-
-                script {
-                    docker.withRegistry('https://registry.hub.docker.com', 'docker-hub') {
-                        def image = docker.build("alestew/professional-website ")
-                        image.push("${BRANCH_NAME}-${BUILD_NUMBER}")
-                        image.push("latest")
-                    }
-                }
+                echo 'Deploying'
+                sh "./deploy.sh"
             }
         }
     }
