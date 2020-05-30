@@ -29,8 +29,8 @@
                         startDate: 'November 2019',
                         endDate: 'Present',
                         details: [
-                            'Working on a warehouse management system leading a team of graduates building a warehouse inventory auditing microservice',
-                            'Lead a project to replace SQS and Apache Pulsar messaging systems with RabbitMQ as part of a migration away from Amazon Web Services.'
+                            'Leading a team of graduates in designing and building a warehouse inventory auditing system.',
+                            'Lead a project to replace the existing messaging infrastructure of a warehouse management system with RabbitMQ.'
                         ]
                     }, {
                         companyName: 'Hermes Parcelnet Ltd.',
@@ -38,8 +38,8 @@
                         startDate: 'July 2019',
                         endDate: 'November 2019',
                         details: [
-                            'Coaching junior members of the team.',
-                            'Responsible for maintaining and documenting cloud infrastructure and continuous integration pipelines.'
+                            'Coaching junior members of the team on a revenue protection project, handling measurements of hundreds of thousands of parcels daily.',
+                            'Responsible for maintaining and documenting cloud infrastructure and continuous integration pipelines for a suite of microservices for handling parcel tracking data.'
                         ]
                     }, {
                         companyName: 'Hermes Parcelnet Ltd.',
@@ -47,7 +47,7 @@
                         startDate: 'July 2018',
                         endDate: 'July 2019',
                         details: [
-                            'Architected microservices for interfacing with third party tracking data sources, providing real time tracking to millions of customers and tens of thousands of clients.',
+                            'Designed new microservices for interfacing with third party tracking data sources, providing real time tracking to millions of customers and tens of thousands of clients.',
                             'Obtained AWS Developer Associate certification.'
                         ]
                     }, {
@@ -75,7 +75,7 @@
                         endDate: 'July 2015',
                         details: [
                             'Developed an algorithm for aligning train track measurement data as part of a big data project to predict line faults.',
-                            'Worked independently to build track measurement conversion libraries in different languages.'
+                            'Worked independently to build train track measurement conversion libraries in different languages.'
                         ]
                     }, {
                         companyName: 'University of York',

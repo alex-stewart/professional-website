@@ -23,15 +23,15 @@
                     {
                         icon: 'MeritIcon',
                         heading: 'AWS Certified',
-                        details: 'Developer Associate'
+                        details: 'Amazon Web Services Certified Developer - Associate'
                     }, {
-                        icon: 'MeterIcon',
-                        heading: 'Scalable Java Microservices',
-                        details: 'Java - Spring Boot - Apache Camel'
+                        icon: 'CloudIcon',
+                        heading: 'Cloud Infrastructure',
+                        details: 'CloudFormation - Jenkins - Concourse - Docker - Ansible'
                     }, {
                         icon: 'RocketIcon',
-                        heading: 'Team Leadership',
-                        details: 'Mentoring - Scrum - Kanban - Test Driven Developments'
+                        heading: 'Agile Team Leadership',
+                        details: 'Scrum - Kanban - Test Driven Development - Mentoring'
                     }, {
                         icon: 'SkyscraperIcon',
                         heading: 'Solution Architecture',
@@ -41,9 +41,9 @@
                         heading: 'Logistics Background',
                         details: 'Parcel Delivery - Parcel Sortation - Warehouse Management'
                     }, {
-                        icon: 'CloudIcon',
-                        heading: 'Cloud Infrastructure',
-                        details: 'CloudFormation - Jenkins - Concourse - Docker - Ansible'
+                        icon: 'MeterIcon',
+                        heading: 'Scalable Java Microservices',
+                        details: 'Java - Spring Boot - Apache Camel'
                     }, {
                         icon: 'PulseIcon',
                         heading: 'Service Visibility',
@@ -55,7 +55,7 @@
                     }, {
                         icon: 'ComputerIcon',
                         heading: 'Web Design',
-                        details: 'JavaScript - AngularJS - Vue.js - React'
+                        details: 'JavaScript - AngularJS - Vue.js - React - SVG'
                     }
                 ]
             }
