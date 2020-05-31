@@ -51,7 +51,7 @@
                     }, {
                         icon: 'ToolsIcon',
                         heading: 'Test Automation',
-                        details: 'JUnit - Mockito - Wiremock - REST-assured - Selenium'
+                        details: 'JUnit - Mockito - Wiremock - REST Assured - Selenium'
                     }, {
                         icon: 'ComputerIcon',
                         heading: 'Web Design',
