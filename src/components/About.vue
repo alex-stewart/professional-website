@@ -37,6 +37,7 @@
         width: 100%;
         min-height: calc(100vh);
     }
+
     .link-row {
         padding-top: 50px;
         padding-bottom: 50px;
