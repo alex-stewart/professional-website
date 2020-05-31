@@ -40,6 +40,10 @@
 
 <style>
     .link-button {
-        background-color: #FFFFFF;
+        background-color: transparent;
+        border-width: 0;
+    }
+    .link-button:hover {
+        background-color: transparent;
     }
 </style>
