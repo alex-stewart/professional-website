@@ -11,9 +11,9 @@
                 <div class="h4">Software Engineer</div>
             </b-row>
             <b-row align-h="center">
-                <div>AWS Certified Developer engineering modern cloud native microservices within the logistics industry.</div>
+                <div>AWS Certified Developer engineering modern cloud native microservices.</div>
             </b-row>
-            <b-row align-h="center" class="nav-row">
+            <b-row align-h="center" class="link-row">
                 <Links/>
             </b-row>
         </b-container>
@@ -37,7 +37,7 @@
         width: 100%;
         min-height: calc(100vh);
     }
-    .nav-row {
+    .link-row {
         padding-top: 50px;
         padding-bottom: 50px;
     }
