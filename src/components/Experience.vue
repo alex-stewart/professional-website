@@ -99,6 +99,7 @@
         padding-top: 20px;
         width: 100%;
         min-height: calc(100vh);
+        background-image: linear-gradient(white, lightgray);
     }
 
     .row-card {
