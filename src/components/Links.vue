@@ -18,7 +18,7 @@
             </BaseIcon>
         </b-button>
         <b-button class="link-button" variant="light" target="_blank" rel="noopener noreferrer"
-                  href="../assets/document/Resume-Alex-Stewart.pdf" download>
+                  href="https://github.com/alex-stewart/professional-website/raw/master/src/assets/document/Resume-Alex-Stewart.pdf" download>
             <BaseIcon>
                 <CVIcon/>
             </BaseIcon>
