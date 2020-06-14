@@ -17,6 +17,12 @@
                 <GitHubIcon/>
             </BaseIcon>
         </b-button>
+        <b-button class="link-button" variant="light" target="_blank" rel="noopener noreferrer"
+                  href="../assets/document/Resume-Alex-Stewart.pdf" download>
+            <BaseIcon>
+                <CVIcon/>
+            </BaseIcon>
+        </b-button>
     </b-button-group>
 
 </template>
@@ -25,6 +31,7 @@
     import GitHubIcon from './icons/GitHubIcon.vue'
     import LinkedInIcon from './icons/LinkedInIcon.vue'
     import MailIcon from './icons/MailIcon.vue'
+    import CVIcon from './icons/CVIcon.vue'
     import BaseIcon from './icons/IconBase';
 
     export default {
@@ -33,7 +40,8 @@
             BaseIcon,
             GitHubIcon,
             LinkedInIcon,
-            MailIcon
+            MailIcon,
+            CVIcon
         }
     }
 </script>
